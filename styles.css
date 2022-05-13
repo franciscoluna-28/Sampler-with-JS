@@ -1,0 +1,90 @@
+body {
+    background-color: #202020;
+}
+
+h1 {
+    font-size: 5em;
+    font-family: 'Roboto Flex', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+#main-container {
+    margin: auto;
+    text-align: center;
+    padding: 4rem;
+    position: relative;
+}
+
+.buttons {
+    background: rgba(255, 255, 255, 0.5);
+    justify-content: center;
+    outline: none;
+    border: none;
+    font-size: 1em;
+    width: 10em;
+    padding: 4rem;
+    box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.3);
+    color: white;
+    border-radius: 4px;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+#container-1 {
+    padding: 0.25rem
+}
+
+#kick {
+    /*  background: #691357; */
+    background: #494949;
+}
+
+#kick:active {
+    background: #39A797;
+}
+
+#snare {
+    /*  background: #529E9C; */
+    background: #494949;
+}
+
+#snare:active {
+    background: #691357;
+}
+
+#hihat {
+    background: #494949;
+}
+
+#hihat:active {
+    background: #529E9C;
+}
+
+#crash {
+    background: #494949;
+}
+
+#crash:active {
+    background: #529E9C;
+}
+
+#pluck {
+    background: #494949;
+}
+
+#pluck:active {
+    background: #691357;
+}
+
+#bell {
+    background: #494949
+}
+
+#bell:active {
+    background: #529E9C;
+}
+
+.buttons:hover {
+    background: aquamarine;
+    color: white;
+}
